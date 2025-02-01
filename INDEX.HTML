@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Movimentação de Produtos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestão de Movimentação de Produtos</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre a Ferramenta</h2>
+    <p>Esta ferramenta foi desenvolvida para otimizar o controle e comunicação interna sobre a movimentação dos produtos da sua empresa. Todos terão acesso às informações de chegada, status e atrasos dos produtos em tempo real.</p>
+  </section>
+
+  <section id="login">
+    <h2>Login de Acesso</h2>
+    <form action="dashboard.html" method="post">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <section id="funcionalidades">
+    <h2>Funcionalidades</h2>
+    <ul>
+      <li>Visualização em tempo real dos produtos recebidos, agendados e atrasados.</li>
+      <li>Alteração de status de movimentação de produtos.</li>
+      <li>Relatórios de movimentação de produtos por fornecedor e data.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
